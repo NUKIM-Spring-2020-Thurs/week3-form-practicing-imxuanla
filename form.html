@@ -1,0 +1,69 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<title>2020年高大資管營報名表</title>
+<body bgcolor="FDFFBE">
+
+<form action="submit.php" method="POST">
+<font face="微軟正黑體">
+<b><center><h2>2020 高雄大學資管營報名表</h2></b>
+
+姓名：<input type="text" name="name"><br/><br/>
+性別：
+<input type=radio name="gender" value="male">男　
+<input type=radio name="gender" value="female">女<br/><br/>
+目前就讀高中／職：
+<input type="text" name="school"><br/><br/>
+目前就讀年級：
+<select name="grade">
+	<option value="one">高一</option>
+	<option value="two">高二</option>
+	<option value="three">高三</option>
+</select><br/><br/>
+生日：
+<input type="date" name="birth"><br/><br/>
+身份證字號：
+<input type="text" name="id"><br/><br/>
+電話（住家）：
+<input type="text" name="homenum"><br/>
+　　（行動）：
+<input type="text" name="phonenum"><br/><br/>
+EMAIL：
+<input type="email" name="email"><br/><br/>
+緊急聯絡人姓名：
+<input type="text" name="emgname"><br/>
+　　　　　電話：
+<input type="text" name="emgnum"><br/>
+關係：
+<select name="emg">
+	<option value="grandparent">祖父母</option>
+	<option value="parent">父母</option>
+	<option value="sibling">兄弟姊妹</option>
+	<option value="relative">親戚</option>
+	<option value="friend">朋友</option>
+</select><br/><br/>
+營服尺寸：
+<select name="size">
+	<option value="S">S</option>
+	<option value="M">M</option>
+	<option value="L">L</option>
+	<option value="XL">XL</option>
+</select><br/><br/>
+<table border="1" cellpadding="10">
+	<th></th><th>S</th><th>M</th><th>L</th><th>XL</th>
+	<tr><td>衣長</td><td>65</td><td>69</td><td>73</td><td>77</td></tr>
+	<tr><td>胸寬</td><td>49</td><td>52</td><td>55</td><td>58</td></tr>
+	<tr><td>肩寬</td><td>42</td><td>46</td><td>50</td><td>54</td></tr>
+	<tr><td>袖長</td><td>19</td><td>20</td><td>22</td><td>24</td></tr>
+</table><br/><br/>
+感興趣的課程：
+<input type="checkbox" name="like[]" value="EC">電子商務
+<input type="checkbox" name="like[]" value="HTML">網頁程式設計
+<input type="checkbox" name="like[]" value="DB">資料庫管理
+<input type="checkbox" name="like[]" value="MIS">資訊管理導論
+<input type="checkbox" name="like[]" value="JAVA">物件導向程式設計<br/><br/>
+備註：
+<textarea rols="100" col="50" name="other"></textarea><br/><br/>
+
+<input type="reset" value="Clear">　<input type="submit" value="Send Data"><br/><br/>
+</center>
+</font>
+</form>
